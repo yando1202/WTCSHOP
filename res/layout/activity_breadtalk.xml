@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kevinyando.wtcshop.BreadtalkActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BreadTalk"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BreadTalk adalah toko roti dan kue yang sudah masuk ke pasaran Internasional. Kini BreadTalk hadir di WTC Batang Hari Jambi. \n
+                BreadTalk menjual berbagai macam roti, kue kering, bolu, hingga kue tart. dengan berbagai macam rasa. Untuk harga bervariasi, sesuai dengan rasa dan ukuran.\n\n
+                BreadTalk mempunyai produk unggulan yaitu roti Abon :\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bt3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roti Abon ini ada dua macam rasa, yaitu roti Abon Ayam dan Roti Abon Sapi. Dengan harga Rp 9000,-\n\n
+                Lokasi BreadTalk ada di lantai dasar di sebelah kanan di depan jco." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
